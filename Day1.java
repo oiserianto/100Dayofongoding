@@ -1,13 +1,10 @@
-Java tidak menjalankan tulisan setelah //.
 // Ini adalah komentar satu baris
 
-Untuk komentar lebih dari satu baris menggunakan tanda /*serta ada penutup/*
 /*
  * Ini adalah komentar
  * yang terdiri dari beberapa baris
  */
 
-ini Biasanya digunakan untuk dokumentasi class atau method menggunakan tanda /** dan penutupnya hanya 1 bintang/*
 /**
  * Ini adalah dokumentasi untuk class.
  * disini bisa kita bisa untuk menjelaskan kode.
@@ -17,19 +14,19 @@ ini Biasanya digunakan untuk dokumentasi class atau method menggunakan tanda /**
 // Ini adalah class. Nama class-nya codingan kita adalah StrukturJava.
 public class StrukturJava { 
 
-  
 // Ini adalah method utama (main). Program Java mulai dijalankan dari sini.
     public static void main(String[] args) {
 
         // ini digunakan untuk menampilkan tulisan ke layar.
-        System.out.println();
+        System.out.println("Hello World");
 
         // Membuat variabel nama bertipe String.
-        String nama =
+        String nama = "OIS ERIANTO";
         // Membuat variabel umur bertipe int (bilangan bulat).
-        int umur =
+        int umur = 19;
 
         // Menampilkan isi variabel
-        System.
+        System.out.println("NAMA:" +nama);
+        System.out.println("UMUR :"+umur);
     }
 }
