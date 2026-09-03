@@ -25,7 +25,7 @@ public class Day3 {
          System.out.println("Folder : C:\\java\\");
 
          //  \'digunakan untuk menampilkan (tanda petik)
-         System.out.println("Hari ini adalah \'hari kamis\'");
+         System.out.println("Hari ini adalah \'hari Jumat\'");
 
          /**
           * \b kode karater yang artinya tombol hapus/mundur
@@ -33,7 +33,7 @@ public class Day3 {
           *  namun hanya satu huruf di hapus mundur kalau
           *  mau lebih tinggal masukan karakter \b lagi
           */
-         System.out.println("ABC\bD"); // ini akan menampilkan kata
+         System.out.println("ABC\bD"); // ini akan menampilkan kata ABD dan C dihapus
 
          //  \r mengembalikan posisi kursor ke awal baris.
          System.out.println("java\rTERIMA KASI");
