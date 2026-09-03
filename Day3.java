@@ -10,7 +10,7 @@ public class Day3 {
         * jadi setelah langsung menambahkan tanda katarter \n
         *  atoamatis samping kiri yang teks akan langsung pindah baris kebawah
         */
-        System.out.println("Nama\n: OIS ERIANTO\nUmur\n: 19");
+        System.out.println("Nama\t: OIS ERIANTO\nUmur\t: 19");
         
         // \t digunakan untuk memberikan jarak atau sama dengan (Tab)
         System.out.println("NAMA \t: OIS ERIANTO");
