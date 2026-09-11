@@ -49,6 +49,51 @@ public class Day10 {
 
         // Menampilkan nilai Maxsimum float
         System.out.println("FLOAT MAX   : "+Float.MAX_VALUE);
+
+        char min = Character.MIN_VALUE;
+        char max = Character.MAX_VALUE;
+
+        // Menampilkan nilai Minimum Character
+        System.out.println("CHAR MIN    : "+(byte)min);
+
+        // Menampilkan nilai Maxsimum Charakter 
+        System.out.println("CHAR MAX    : "+(byte)max);
+
+        
+        // Menampilkan nilai Minimum Character
+        System.out.println("CHAR MIN    : "+(short)min);
+
+        // Menampilkan nilai Maxsimum Charakter 
+        System.out.println("CHAR MAX    : "+(short)max);
+
+        
+        // Menampilkan nilai Minimum Character
+        System.out.println("CHAR MIN    : "+(int)min);
+
+        // Menampilkan nilai Maxsimum Charakter 
+        System.out.println("CHAR MAX    : "+(int)max);
+
+        
+        // Menampilkan nilai Minimum Character
+        System.out.println("CHAR MIN    : "+(long)min);
+
+        // Menampilkan nilai Maxsimum Charakter 
+        System.out.println("CHAR MAX    : "+(long)max);
+
+        
+        // Menampilkan nilai Minimum Character
+        System.out.println("CHAR MIN    : "+(double)min);
+
+        // Menampilkan nilai Maxsimum Charakter 
+        System.out.println("CHAR MAX    : "+(double)max);
+
+        
+        // Menampilkan nilai Minimum Character
+        System.out.println("CHAR MIN    : "+(float)min);
+
+        // Menampilkan nilai Maxsimum Charakter 
+        System.out.println("CHAR MAX    : "+(float)max);
+        
         System.out.println("============ SAMPAI JUMPA DI DAY 11 ==============");
     }
 }
