@@ -38,6 +38,17 @@ public class Day10 {
         //menampilkan nilai maxsimun lonf
         System.out.println("LONG MAX    : "+Long.MAX_VALUE);
 
+        // Menampilkan nilai minimum double
+        System.out.println("DOUBLE MIN  : "+Double.MIN_VALUE);
+
+        // Menampilkan nilai maxsimum double
+        System.out.println("DOUBLE MAX  : "+Double.MAX_VALUE);
+
+        // Menampilkan nilai Minimum float
+        System.out.println("FLOAT MIN   : "+Float.MIN_VALUE);
+
+        // Menampilkan nilai Maxsimum float
+        System.out.println("FLOAT MAX   : "+Float.MAX_VALUE);
         System.out.println("============ SAMPAI JUMPA DI DAY 11 ==============");
     }
 }
