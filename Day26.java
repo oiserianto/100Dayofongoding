@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Day26 {
     public static void main(String[] args) {
        Scanner z = new Scanner(System.in);
+
+       // Soal 1
        System.out.print("Masukkan Nama\t\t: ");
        String a = z.nextLine();
        System.out.print("Masukkan Nim\t\t: ");
@@ -21,7 +23,6 @@ public class Day26 {
         System.out.print("Status Keaktifan\t: ");
         boolean g = z.nextBoolean();
 
-
         System.out.println();
         System.out.println("===== BIODATA MAHASISWA =====");
         System.out.println("Nama\t\t: "+a);
@@ -33,14 +34,13 @@ public class Day26 {
         System.out.println("Status Aktif\t: "+g);
         System.out.println("=========================\n");
 
+        // Soal 2
         int h = z.nextInt();
         int i = z.nextInt();
         double j = 3.14;
         double k =j*h*h;
         double l =j*i*i;
          
-        
-        
         System.out.println(k);
         System.out.println(l);
 
@@ -48,6 +48,7 @@ public class Day26 {
         System.out.println();
 
 
+        // Soal3
         int p = z.nextInt();
         int o = z.nextInt();
 
