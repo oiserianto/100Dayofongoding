@@ -18,12 +18,12 @@ public class Day38 {
 
         if (pilihan == 1){
             System.out.println("[=== NASI GORENG ===]");
-       }if (pilihan == 2){
+       }else if (pilihan == 2){
             System.out.println("[=== BAKSO ===]");
        }if (pilihan == 3){
         System.out.println("[=== AYAM GORENG ===]");
+       }else{
+        System.out.println("Tidak ada di menu");
        }
-
-       System.out.println();
     }
 }
