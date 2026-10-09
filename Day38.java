@@ -20,7 +20,7 @@ public class Day38 {
             System.out.println("[=== NASI GORENG ===]");
        }else if (pilihan == 2){
             System.out.println("[=== BAKSO ===]");
-       }if (pilihan == 3){
+       }else if (pilihan == 3){
         System.out.println("[=== AYAM GORENG ===]");
        }else{
         System.out.println("Tidak ada di menu");
