@@ -30,7 +30,7 @@ public class Day40 {
         System.out.println("Paket: "+paket);
         if (pulsa >= harga){
             System.out.println("Status : Berhasil");
-            System.out.println("Sisa pulsa: Rp"+(harga-pulsa));
+            System.out.println("Sisa pulsa: Rp"+(pulsa-harga));
         }else{
             System.out.println("Status : pulsa tidak cukup");
             System.out.println("Kekurangan: Rp"+(harga-pulsa));
