@@ -41,6 +41,7 @@ public class Day54 {
         }else if (a>0 && a%2 !=0){
             System.out.println("Bulat Ganjil");
             System.out.println("Positif");
+            System.out.println("Natural");
         } else if(a<0 && a%2 == 0){
             System.out.println("Bulat Genap");
             System.out.println("Negatif");
