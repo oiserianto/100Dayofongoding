@@ -11,6 +11,8 @@ public class Day54 {
         int x = v.nextInt();
         int y = v.nextInt();
         int z = v.nextInt();
+
+
         if (y>x){
             x++;
         }else if(y<x){
@@ -27,21 +29,26 @@ public class Day54 {
 
 
         // Soal2:
-        double a = v.nextDouble();
+         double a = v.nextDouble();
 
         if(a>0 && a%2==0){
             System.out.println("Bulat Genap");
             System.out.println("Positif");
             System.out.println("Natural");
-        }else if (a>0 && a%2!=0){
+        }else if (a>0 && a!=(int) a){
             System.out.println("Pecahan");
+            System.out.println("Positif");
+        }else if (a>0 && a%2 !=0){
+            System.out.println("Bulat Ganjil");
             System.out.println("Positif");
         } else if(a<0 && a%2 == 0){
             System.out.println("Bulat Genap");
             System.out.println("Negatif");
-            System.out.println("Natural");
-        }else if(a<0 && a%2 != 0){
+        }else if(a<0 && a != (int) a){
             System.out.println("Pecahan");
+            System.out.println("Negatif");
+        }else if(a<0 && a%2 !=0){
+            System.out.println("Bulat Ganjil");
             System.out.println("Negatif");
         }else{
             System.out.println("Bulat Genap");
